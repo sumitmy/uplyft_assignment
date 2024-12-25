@@ -1,0 +1,30 @@
+.history-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+}
+
+.history-page h1 {
+  margin-bottom: 20px;
+}
+
+.history-container {
+  width: 100%; /* Adjust width as needed */
+  max-height: 80vh; /* Limit height to 70% of the viewport */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  overflow-y: auto; /* Add vertical scrolling */
+}
+
+.history-container p {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  word-wrap: break-word; /* Ensure long text breaks to fit */
+}
